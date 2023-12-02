@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Restaurant Web Site</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    
+    <!-- header section start -->
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="logo">
+        </a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#products">Products</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+
+        <div class="buttons">
+            <button id="search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+            <button id="cart-btn">
+                <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button id="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+
+        <div class="search-form">
+            <input type="text" class="search-input" id="search-box" placeholder="Search Here">
+            <i class="fas fa-search"></i>
+        </div>
+
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/menu-1.png" alt="menu">
+                <div class="content">
+                    <h3>cart item 01</h3>
+                    <div class="price">$15.99/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/menu-2.png" alt="menu">
+                <div class="content">
+                    <h3>cart item 02</h3>
+                    <div class="price">$15.99/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/menu-3.png" alt="menu">
+                <div class="content">
+                    <h3>cart item 03</h3>
+                    <div class="price">$15.99/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/menu-4.png" alt="menu">
+                <div class="content">
+                    <h3>cart item 04</h3>
+                    <div class="price">$15.99/-</div>
+                </div>
+            </div>
+            <a href="#" class="btn">checkout now</a>
+        </div>
+    </header>
+    <!-- header section end -->
+    
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>TASOGLU FAST FOOD EVERYWHERE</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, expedita. Odio velit veniam dignissimos hic.</p>
+            <a href="#" class="btn">Order Now</a>
+        </div>
+    </section>
+    <!-- home section end -->
+    
+    <!-- menu section start -->
+    <section class="menu" id="menu">
+        <h1 class="heading">Our <span>Menu</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/menu-1.png" alt="menu">
+                    <span class="menu-category">PIZZA</span>
+                    <h3>6 Mini Pizza</h3>
+                    <div class="price">$104.99 <span>$119.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/menu-2.png" alt="menu">
+                    <span class="menu-category">BURGER</span>
+                    <h3>5 Mini Burger</h3>
+                    <div class="price">$99.99 <span>$109.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/menu-3.png" alt="menu">
+                    <span class="menu-category">PIZZA</span>
+                    <h3>2 Mixed Pizza</h3>
+                    <div class="price">$49.99 <span>$59.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/menu-4.png" alt="menu">
+                    <span class="menu-category">PIZZA</span>
+                    <h3>triple burger</h3>
+                    <div class="price">$79.99 <span>$99.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- menu section end -->
+    
+    
+    <!-- products section start -->
+    <section class="products" id="products">
+        <h1 class="heading">Our <span>products</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">MINI BURGER</span>
+                    <a href="#" class="name">Bacon Burger</a>
+                </div>
+                <div class="image">
+                    <img src="images/product-1.png" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">$7.99</b>
+                        <span class="amount">110gr / 300 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">MINI BURGER</span>
+                    <a href="#" class="name">Dark Cheese Burger</a>
+                </div>
+                <div class="image">
+                    <img src="images/product-2.png" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">$12.99</b>
+                        <span class="amount">220gr / 600 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box dark-bg">
+                <div class="box-head">
+                    <span class="title">MINI BURGER</span>
+                    <a href="#" class="name">Dark Double Burger</a>
+                </div>
+                <div class="image">
+                    <img src="images/dark-product.jpg" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">$24.99</b>
+                        <span class="amount">440gr / 1200 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- products section end -->
+    
+    <!-- about section start -->
+    <section class="about" id="about">
+        <h1 class="heading">about <span>us</span></h1>
+        <div class="row">
+            <div class="image">
+                <img src="images/about.jpg" alt="about">
+            </div>
+            <div class="content">
+                <h3>What Is The Secret Recipe Of Our Burgers?</h3>
+                <p>The unique flavor of our burgers comes to life with a secret touch we add. In this culinary delight prepared with love, the extraordinary experience of our chefs is felt with every bite. The hidden flavor secret in our establishment goes beyond the ingredients, offering a taste crafted with love. In our new burger spot, we invite you to an unforgettable culinary adventure.</p>
+                
+                <!-- bu sekilde de olabilir -->
+                <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta reprehenderit eaque est? Porro deleniti nisi, deserunt error dignissimos assumenda. Veniam?</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta reprehenderit eaque est? Porro deleniti nisi, deserunt error dignissimos assumenda. Veniam?</p> -->
+                
+
+                <a href="#" class="btn">learn more</a>
+            </div>
+        </div>
+    </section>
+    <!-- about section end -->
+    
+    <!-- review section start -->
+    <section class="review" id="review">
+        <h1 class="heading">customers's <span>review</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/quote.png" alt="quote">
+                <p>At Tasoglu Burger, I savored a delectable burger, accompanied by remarkably friendly service. The inviting atmosphere and authentic smiles from the staff left an enduring memory. Tasoglu Burger has earned its place among my top burger destinations. I love Tasoglu Burger, it's my favorite restaurant !!!!!!</p>
+                <img src="images/hatife tasoglu.jpg" alt="avatar" class="user">
+                <h3>Hatife Yamas</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/quote.png" alt="quote">
+                <p>I had a delicious burger at Tasoglu Burger, and the serving staff were incredibly friendly. The atmosphere was warm and inviting. The genuine smiles and hospitality of the staff made the experience truly memorable. I was welcomed with a sweet smile, making Tasoglu Burger one of my favorite burger spots.</p>
+                <img src="images/ppp.jpg" alt="avatar" class="user">
+                <h3>Enes Tasoglu</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/quote.png" alt="quote">
+                <p>Tasoglu Burger provided an exquisite burger experience, paired with exceptionally friendly service. The warm atmosphere and genuine smiles from the staff created lasting memories. Tasoglu Burger has solidified its spot as one of my top burger destinations. I adore Tasoglu Burger; it's my favorite restaurant!</p>
+                <img src="images/derya tasoglu.jpg" alt="avatar" class="user">
+                <h3>Derya Atakul</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- review section end -->
+    
+    
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <h1 class="heading">contact's <span>us</span></h1>
+        <div class="row">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48191.88075505434!2d29.046744302185918!3d40.98164403069809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac790b17ba89d%3A0xd2d24ea0437a7ee2!2zS2FkxLFrw7Z5L8Swc3RhbmJ1bA!5e0!3m2!1str!2str!4v1701518467526!5m2!1str!2str" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <form>
+                <h3>get in touch</h3>
+                <div class="inputBox">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="name">
+                </div>
+                <div class="inputBox">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="e-mail">
+                </div>
+                <div class="inputBox">
+                    <i class="fas fa-phone"></i>
+                    <input type="number" placeholder="number">
+                </div>
+                <input type="submit" class="btn" value="contact now">
+            </form>
+        </div>
+    </section>
+    <!-- contact section end -->
+    
+    
+    <!-- blogs section start -->
+    <section class="blogs" id="blogs">
+        <h1 class="heading">our <span>Blog</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-1.jpg" alt="blog">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">how to make burger?</a>
+                    <span>by admin / 10st may 2023</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, recusandae.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-3.jpg" alt="blog">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">how to make a small burger?</a>
+                    <span>by staff / 28st may 2023</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, recusandae.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-2.jpg" alt="blog">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">how to make a big burger?</a>
+                    <span>by derya / 22st june 2023</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, recusandae.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blogs section end -->
+
+    <!-- footer section start -->
+    <section class="footer">
+        <div class="search">
+            <input type="text" class="search-input" placeholder="Search">
+            <button class="btn btn-primary">search</button>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="links">
+            <a href="#" class="active">Home</a>
+            <a href="#">About</a>
+            <a href="#">Menu</a>
+            <a href="#">Products</a>
+            <a href="#">Review</a>
+            <a href="#">Contact</a>
+            <a href="#">Blogs</a>
+        </div>
+
+        <div class="credit">
+            created by <span>Enes Tasoglu</span> | all rigths reserved
+        </div>
+    </section>
+    <!-- footer section end -->
+
+    <script src="js/script.js"></script>
+</body>
+</html>
